@@ -4,7 +4,9 @@ import fs from 'fs/promises';
 import cloudinary from 'cloudinary';
 
 import asyncHandler from '../middlewares/asyncHandler.middleware.js';
+console.log("Ho gaya");
 import AppError from '../utils/AppError.js';
+console.log("Yeh bhi ho gaya");
 import User from '../models/user.model.js';
 import sendEmail from '../utils/sendEmail.js';
 
